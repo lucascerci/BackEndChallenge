@@ -1,0 +1,22 @@
+{
+  "name": "backendchallenge",
+  "version": "1.0.0",
+  "description": "Show! Seja bem-vindo(a) ao nosso desafio de back-end, e divirta-se 😜.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucascerci/BackEndChallenge.git"
+  },
+  "author": "Lucas P. Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucascerci/BackEndChallenge/issues"
+  },
+  "homepage": "https://github.com/lucascerci/BackEndChallenge#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
