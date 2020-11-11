@@ -9,7 +9,7 @@ class App {
     this.middlewares();
 
     this.express.listen(port, () =>
-      console.log(`Example app listening at http://localhost:${port}`)
+      console.log(`App listening at http://localhost:${port}`)
     );
   }
 
@@ -18,8 +18,7 @@ class App {
   }
 
   routes() {
-    console.log("inside routes")
-    this.express.use(require("./src/routes/routes"));
+    this.express.use('/v1', require("./src/routes"));
   }
 }
 
