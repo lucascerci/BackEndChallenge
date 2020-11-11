@@ -2,9 +2,9 @@
   "name": "backendchallenge",
   "version": "1.0.0",
   "description": "Show! Seja bem-vindo(a) ao nosso desafio de back-end, e divirta-se 😜.",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/lucascerci/BackEndChallenge#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }
